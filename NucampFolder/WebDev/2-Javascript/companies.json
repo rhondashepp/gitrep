@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Nucamp",
+        "number_of_employees": 150,
+        "CEO": "Ludo Fourrage",
+        "glassdoorRating": 5.0
+     },
+     {
+        "name": "Jetsons",
+        "number_of_employees": 57,
+        "CEO": "Liberty Sheppard" ,
+        "glassdoorRating": 4.9
+
+     } 
+]
