@@ -1,3 +1,5 @@
+
+
 const Partner = ({ partner }) => {
     if (partner) {
       const { image, name, description } = partner;
