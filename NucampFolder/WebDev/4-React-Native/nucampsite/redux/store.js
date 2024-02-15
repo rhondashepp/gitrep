@@ -10,6 +10,7 @@ export const store = configureStore({
         campsites: campsitesReducer,
         comments: commentsReducer,
         partners: partnersReducer,
-        promotions: promotionsReducer
+        promotions: promotionsReducer,
+        favorites: favoritesReducer
     }
 });
