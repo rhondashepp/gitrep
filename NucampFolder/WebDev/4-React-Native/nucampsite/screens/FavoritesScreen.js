@@ -1,10 +1,17 @@
-import { useDispatch, useSelector } from "react-redux";
-import  {View, FlatList, Text, TouchableOpacity, StyleSheet, Alert }from 'react-native';
-import { Avatar } from "react-native-elements";
-import Loading from "../components/LoadingComponent";
-import { baseUrl } from "../shared/baseUrl";
-import { SwipeRow } from "react-native-swipe-list-view";
-import { toggleFavorite } from "../features/favorites/favoritesSlice";
+import { useDispatch, useSelector } from 'react-redux';
+import {
+    View,
+    FlatList,
+    Text,
+    TouchableOpacity,
+    StyleSheet,
+    Alert
+} from 'react-native';
+import { Avatar, ListItem } from 'react-native-elements';
+import Loading from '../components/LoadingComponent';
+import { baseUrl } from '../shared/baseUrl';
+import { SwipeRow } from 'react-native-swipe-list-view';
+import { toggleFavorite } from '../features/favorites/favoritesSlice';
 import * as Animatable from 'react-native-animatable';
 
 const FavoritesScreen = ({ navigation }) => {
@@ -120,6 +127,130 @@ const styles = StyleSheet.create({
 });
 
 export default FavoritesScreen;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
