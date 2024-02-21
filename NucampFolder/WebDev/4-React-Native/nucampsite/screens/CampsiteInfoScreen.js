@@ -1,10 +1,10 @@
-import RenderCampsite from "../features/campsites/RenderCampsite";
-import { FlatList, StyleSheet, Text, View, Button, Modal } from "react-native";
-import { useSelector, useDispatch } from "react-redux";
-import { toggleFavorite } from "../features/favorites/favoritesSlice";
-import { useState } from "react";
-import { Rating, Input, Icon } from "react-native-elements";
-import { postComment } from "../features/comments/commentsSlice";
+import { useState } from 'react';
+import { Button, FlatList, Modal, StyleSheet, Text, View } from 'react-native';
+import { Input, Rating } from 'react-native-elements';
+import { useSelector, useDispatch } from 'react-redux';
+import RenderCampsite from '../features/campsites/RenderCampsite';
+import { toggleFavorite } from '../features/favorites/favoritesSlice';
+import { postComment } from '../features/comments/commentsSlice';
 import * as Animatable from 'react-native-animatable';
 
 const CampsiteInfoScreen = ({ route }) => {
